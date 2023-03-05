@@ -6,7 +6,7 @@ def run_elo(student_item_scores, k=1):
     """
     Runs the elo algorithm for a given list of students, items, and scores and a weighting parameter k and returns the ability of each student,
      the difficulty of each item, and the Root Mean Squared Error (RMSE) of the predictions.
-    :param student_item_scores: a numpy array of shape mxn, where the fist column is the student's name, the second column is the item's name and the third
+    :param student_item_scores: a numpy array of shape mxn, where the first column is the student's name, the second column is the item's name and the third
     column is the student's score on that item. A score of 1 is correct and a score of 0 is incorrect.
     :param k: an optional parameter that informs the algorithm how much weight to put on predictions. The range of k is [0, 1], with default value of k 1.
     :return: a dictionary of the abilities of students, a dictionary of the difficulties or items, and the Root Mean Squared Error (RMSE) of predictions.

@@ -7,7 +7,7 @@ def fit_elo(student_item_scores, step=0.01):
     Searches the optimal k for a given list of students, items, and scores and returns student abilities, item difficulties, the optimal k and
     the Root Mean Squared Error (RMSE) of predictions for that optimal k. This function iteratively calls the run_elo function by varying the values of k
     between 0 and 1, with a default step of 0.01.
-    :param student_item_scores: a numpy array of shape mxn, where the fist column is the student's name, the second column is the item's name and the third
+    :param student_item_scores: a numpy array of shape mxn, where the first column is the student's name, the second column is the item's name and the third
     column is the student's score on that item. A score of 1 is correct and a score of 0 is incorrect.
     :param step: an optional parameter that informs the algorithm by how much to increase k on each iteration. The default value of step is 0.01.
     :return: a dictionary of the abilities of students, a dictionary of the difficulties or items, the optimal k, and
