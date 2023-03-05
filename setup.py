@@ -14,9 +14,9 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     packages=find_packages(),
-    install_requires=[],
+    install_requires=['numpy', 'pandas'],
 
-    keywords=['python', 'morf'],
+    keywords=['python', 'elo'],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Education",
