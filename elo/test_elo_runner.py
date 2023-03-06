@@ -3,7 +3,7 @@ from unittest import TestCase
 from numpy.testing import assert_almost_equal
 
 from base_test_case import BaseTestCase
-from elo_runner import run_elo
+from .elo_runner import run_elo
 
 
 class Test(TestCase, BaseTestCase):

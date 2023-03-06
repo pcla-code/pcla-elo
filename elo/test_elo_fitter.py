@@ -2,7 +2,7 @@ from unittest import TestCase
 
 from numpy.testing import assert_almost_equal
 
-from elo_fitter import fit_elo
+from .elo_fitter import fit_elo
 
 from base_test_case import BaseTestCase
 

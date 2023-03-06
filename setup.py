@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Implementation of the ELO Algorithm'
-LONG_DESCRIPTION = 'A Python implementation of the ELO algorithm developed by PCLA'
+with open('README.md') as f:
+    LONG_DESCRIPTION = f.read()
 
 # Setting up
 setup(
@@ -13,6 +14,7 @@ setup(
     author_email="mogessie@upenn.edu",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
+    long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=['numpy', 'pandas'],
 

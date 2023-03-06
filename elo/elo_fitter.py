@@ -1,5 +1,5 @@
 import sys
-from elo_runner import run_elo
+from .elo_runner import run_elo
 
 
 def fit_elo(student_item_scores, step=0.01):
